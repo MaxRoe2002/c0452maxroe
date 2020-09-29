@@ -1,31 +1,21 @@
-# CO452 Application Template 2020
-This template is based on Java application described in the book *Objects First with Java: A Practical Introduction Using BlueJ* Version 6 Java and contains starting Projects for BNU CO452 students and the wiki contains details on the marking scheme and the features required for assessment applications.
-[Goto the Wiki](https://github.com/BNU-CO452/BlueJ-Apps/wiki)
-# What is GitHub
-Please watch this very short video
-[What is GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E#action=share&ab_channel=GitHub)   
-# GitHub Desktop
-The requirements for those applications and full details of how they will be assessed can be found in [this repositories Wiki](https://github.com/BNU-CO452/BlueJ-Apps/wiki)
-## Step 1
-Click on the **Use this Template** button and create your own copy of this repository
-## Step 2
-Install [GitHub Desktop](https://desktop.github.com/) on your computer  
-
-![GitHub Desktop](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/GitHub%20Desktop-1.jpg)
-## Step 3
-Create or locate a suitable folder to store all your local repositories, mine is called *repos* for repositories. Dont use a cloud drive like OneDrive as it can lead to synchronisation issues.
-## Step 4
-Use GitHub Desktop to clone your remote repository to create a local copy in your repositories folder.
-
-![Clone](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/GitHub%20Desktop-2.jpg)
-
-![Clone 2](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/GitHub%20Desktop-3.jpg)
-## Step 5
-Start coding the applications on your local copy by opening a BlueJ project in BlueJ.  Make changes and commit and push up your changes bit by bit adding a suitable message with each commit so your tutor can see how you developed the application in detail.
-
-You should have one main folder inside of which is all the blueJ project folders.  You will find that there are changes to the package.bluej which you did not make but which the system makes as you make other changes.  Just commit and push them like other changes.  Folder names in Java should start with a lower case letter, I have made one mistake there.
-
-![Folder Structure](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/Folders.jpg)
-
+## App01 LabClass
+### Description
+The LabClass class represents an enrolment list for one lab class. It stores the time, room and participants of the lab, as well as the instructor's name.  Code already exists for most of the features. but the code has not been tested.
+### Requirements 1: Testing
+* Test App01 the LabClass project by creating a new LabClass called co452Lab and enrolling three new Students (make up unique names).  This LabClass will be held on Tuesday 29th September 2020 in room G100 taken by instructor Nicholas Day.
+* Also test that the students can be updated with 20 credits,  and that a student name could be updated to correct a spelling mistake for example. 
+* Document your testing by selecting View ->  Show Terminal in BlueJ and then Select Options -> Record Method Calls.  When the testing is complete save to a txt file as LabClassTests.txt
+### Requirements 2: New Features
+* Create a new class called Course which contains a code number and a title, e.g. G400, Computing.
+* Add a new field to the Student class for Course and a method to add a course to a student.
+* Modify the Student.print() method so that it prints out the student’s course.
+* Test that it works
+## Design
+![App01 Class Diagram](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/App01-classes.jpg)
+## Testing
+*To be completed by the student*
+[Example of Testing](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/app01-lab-classes/app01-Testing.txt)
+## Evaluation
+*To be completed by the student*
 
 
