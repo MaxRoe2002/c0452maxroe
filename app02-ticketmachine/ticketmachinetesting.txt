@@ -1,0 +1,28 @@
+TicketMachine ticketMa1 = new TicketMachine(500);
+ticketMa1.getPrice()
+    returned int 500
+ticketMa1.insertMoney(1000);
+ticketMa1.insertMoney(500);
+ticketMa1.getPrice()
+    returned int 500
+Ticket ticket1 = new Ticket("Alyesbury", 220);
+Ticket ticket1 = new Ticket("Aylesbury", 220);
+ticket1.print();
+Ticket Aylesbury Price :  Issued Sat Oct 10 12:16:04 BST 2020
+Ticket ticket1 = new Ticket("Aylesbury", 220);
+ticket1.print();
+Ticket Aylesbury Price :  Price : 220 Issued Sat Oct 10 12:17:28 BST 2020
+TicketMachine ticketMa1 = new TicketMachine(200);
+Ticket ticket1 = new Ticket("Aylesbury", 220);
+ticketMa1.selectAylesburyTicket();
+Ticket ticket1 = new Ticket("Amersham", 300);
+ticket1.print();
+Ticket Amersham Price :  Price : 300 Issued Sat Oct 10 12:48:10 BST 2020
+Ticket ticket2 = new Ticket("HighWycombe", 330);
+ticket2.print();
+Ticket HighWycombe Price :  Price : 330 Issued Sat Oct 10 12:48:41 BST 2020
+TicketMachine ticketMa1 = new TicketMachine(5);
+ticket2.print();
+Ticket HighWycombe Price :  Price : 330 Issued Sat Oct 10 12:48:41 BST 2020
+Coin.values()
+    returned Object <object reference>
