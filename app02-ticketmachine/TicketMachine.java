@@ -9,7 +9,8 @@
  * @author David J. Barnes and Michael Kölling
  * @version 2016.02.29
  * 
- * Modified by Student Name
+ * Modified by Max Roe
+ * @version 2020.10.10
  */
 public class TicketMachine
 {
@@ -19,6 +20,14 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    
+    private Ticket issuedTicket;
+    
+    private Ticket aylesburyTicket;
+    
+    private Ticket amershamTicket;
+    
+    private Ticket highwycombeTicket;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -28,6 +37,15 @@ public class TicketMachine
         price = cost;
         balance = 0;
         total = 0;
+        
+        aylesburyTicket = new Ticket("Aylesbury", 220);
+        
+        amershamTicket = new Ticket("Amersham", 300);
+        
+        highwycombeTicket = new Ticket("HighWycombe", 330);
+        
+        
+        issuedTicket = null;
     }
 
     /**
@@ -64,6 +82,22 @@ public class TicketMachine
         }
     }
 
+    public void selectAylesburyTicket()
+    {
+        issuedTicket = aylesburyTicket;
+    }
+    
+    public void selectAmershamTicket()
+    {
+        issuedTicket = amershamTicket;
+    }
+    
+    public void selectHighWycombeTicket()
+    {
+        issuedTicket = highwycombeTicket;
+    }
+   
+    
     /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
