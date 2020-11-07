@@ -1,0 +1,60 @@
+
+=====================
+Max's Stock List
+=====================
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 11 stock level: 0
+105: Samsung Galaxy A51 stock level: 0
+106: Huawei P40 Pro stock level: 0
+107: Apple iPhone X stock level: 0
+108: Google Pixel 5 stock level: 0
+109: Sony Xperia 5 stock level: 0
+110: Samsung Galaxy S10 stock level: 0
+
+Showing Product Delivery
+
+Product Delivered : 101: Samsung Galaxy S20 stock level: 1
+Product Delivered : 102: Apple iPhone 12 stock level: 7
+Product Delivered : 103: Google Pixel 4A stock level: 5
+Product Delivered : 104: Apple iPhone 11 stock level: 2
+Product Delivered : 105: Samsung Galaxy A51 stock level: 1
+Product Delivered : 106: Huawei P40 Pro stock level: 1
+Product Delivered : 107: Apple iPhone X stock level: 5
+Product Delivered : 108: Google Pixel 5 stock level: 4
+Product Delivered : 109: Sony Xperia 5 stock level: 3
+Product Delivered : 110: Samsung Galaxy S10 stock level: 6
+
+Showing Product Sell
+
+101: Samsung Galaxy S20 stock level: 1
+Not Enough Stock = 1 amount ordered = 7
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 7
+Sold 2 of Apple iPhone 12
+102: Apple iPhone 12 stock level: 5
+103: Google Pixel 4A stock level: 5
+Sold 1 of Google Pixel 4A
+103: Google Pixel 4A stock level: 4
+104: Apple iPhone 11 stock level: 2
+Sold 2 of Apple iPhone 11
+104: Apple iPhone 11 stock level: 0
+105: Samsung Galaxy A51 stock level: 1
+Not Enough Stock = 1 amount ordered = 3
+105: Samsung Galaxy A51 stock level: 0
+106: Huawei P40 Pro stock level: 1
+Not Enough Stock = 1 amount ordered = 2
+106: Huawei P40 Pro stock level: 0
+107: Apple iPhone X stock level: 5
+Sold 5 of Apple iPhone X
+107: Apple iPhone X stock level: 0
+108: Google Pixel 5 stock level: 4
+Sold 1 of Google Pixel 5
+108: Google Pixel 5 stock level: 3
+109: Sony Xperia 5 stock level: 3
+Not Enough Stock = 3 amount ordered = 6
+109: Sony Xperia 5 stock level: 0
+110: Samsung Galaxy S10 stock level: 6
+Sold 4 of Samsung Galaxy S10
+110: Samsung Galaxy S10 stock level: 2
