@@ -1,0 +1,158 @@
+quit
+
+ You have added 101: Samsung Galaxy S20 stock level: 0
+
+ You have added 102: Apple iPhone 12 stock level: 0
+
+ You have added 103: Google Pixel 4A stock level: 0
+
+ You have added 104: Apple iPhone 11 stock level: 0
+
+ You have added 105: Samsung Galaxy A51 stock level: 0
+
+ You have added 106: Huawei P40 Pro stock level: 0
+
+ You have added 107: Apple iPhone X stock level: 0
+
+ You have added 108: Google Pixel 5 stock level: 0
+
+ You have added 109: Sony Xperia 5 stock level: 0
+
+ You have added 110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> 
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> print all
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> printall
+
+=====================
+Max's Stock List
+=====================
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 11 stock level: 0
+105: Samsung Galaxy A51 stock level: 0
+106: Huawei P40 Pro stock level: 0
+107: Apple iPhone X stock level: 0
+108: Google Pixel 5 stock level: 0
+109: Sony Xperia 5 stock level: 0
+110: Samsung Galaxy S10 stock level: 0
+> quit
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> quit
+
+ You have added 101: Samsung Galaxy S20 stock level: 0
+
+ You have added 102: Apple iPhone 12 stock level: 0
+
+ You have added 103: Google Pixel 4A stock level: 0
+
+ You have added 104: Apple iPhone 11 stock level: 0
+
+ You have added 105: Samsung Galaxy A51 stock level: 0
+
+ You have added 106: Huawei P40 Pro stock level: 0
+
+ You have added 107: Apple iPhone X stock level: 0
+
+ You have added 108: Google Pixel 5 stock level: 0
+
+ You have added 109: Sony Xperia 5 stock level: 0
+
+ You have added 110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> printall
+
+=====================
+Max's Stock List
+=====================
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 11 stock level: 0
+105: Samsung Galaxy A51 stock level: 0
+106: Huawei P40 Pro stock level: 0
+107: Apple iPhone X stock level: 0
+108: Google Pixel 5 stock level: 0
+109: Sony Xperia 5 stock level: 0
+110: Samsung Galaxy S10 stock level: 0
+> add
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> add
+Adding new product
+
+Please enter the product ID
+> 101
+Please enter the name of the product
+> Samsung
+This product has a duplicated ID!
+
+ You have added 101: Samsung stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> 
