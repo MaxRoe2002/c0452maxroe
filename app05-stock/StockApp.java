@@ -17,10 +17,11 @@ public class StockApp
     public static final String ADD = "add";
     // Print all function
     public static final String PRINT_ALL = "printall";
-
-
-    
-    
+    public static final String REMOVE = "remove";
+    public static final String DELIVER = "deliver";
+    public static final String SELL = "sell";
+    public static final String SEARCH = "search";
+    public static final String STOCK = "stock";
     // Use to get user input
     private InputReader input = new InputReader();
     // Use to create a stock manager
@@ -29,7 +30,7 @@ public class StockApp
     private StockDemo demo = new StockDemo(manager);
 
     /**
-     * 
+     * Runs the program
      */
     public void run()
     {
@@ -43,6 +44,8 @@ public class StockApp
             String choice = input.getString().toLowerCase();
             
             if(choice.equals(QUIT))
+                finished = true;
+            else if (choice.equals(SEARCH))
                 finished = true;
             else
                 executeMenuChoice(choice);
@@ -79,7 +82,7 @@ public class StockApp
         System.out.println("\n You have added " + product);
         System.out.println();
     }
-    
+      
     /**
      * Print out a menu of operation choices
      */

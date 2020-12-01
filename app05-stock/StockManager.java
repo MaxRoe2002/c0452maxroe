@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.*;
 
 /**
  * Manage the stock in a business.
@@ -11,6 +12,7 @@ public class StockManager
 {
     // A list of the products.
     private ArrayList<Product> stock;
+    List <Product> listProduct = new ArrayList<Product>();
 
     /**
      * Initialise the stock manager.
@@ -111,6 +113,20 @@ public class StockManager
                             
     }
     
+    public void searchProduct(String word)
+    {
+        listProduct.clear();
+        
+        for(Product product :stock)
+        {
+            if(product.getName().contains(word))
+            {
+                listProduct.add(product);
+            }
+        }
+        printListProduct();
+    }
+    
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. If the ID does not
@@ -121,6 +137,14 @@ public class StockManager
     public int numberInStock(int id)
     {
         return 0;
+    }
+    
+    public void printListProduct()
+    {
+        listProduct.forEach(product ->
+        {
+             System.out.println(product);
+        });
     }
 
     /**
