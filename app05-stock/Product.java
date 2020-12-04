@@ -1,10 +1,10 @@
+import java.util.*;
+import java.lang.String;
 /**
  * Model some details of a product sold by a company.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
- * @edited by Max Roe
- * @version 2020.11.7
+ * @author Max Roe
+ * @version 04/12/2020
  */
 public class Product
 {
@@ -29,7 +29,7 @@ public class Product
     }
 
     /**
-     * @return The product's id.
+     * return The product's id.
      */
     public int getID()
     {
@@ -37,13 +37,52 @@ public class Product
     }
 
     /**
-     * @return The product's name.
+     * return The product's name.
      */
     public String getName()
     {
         return name;
     }
-
+    
+    /**
+     * This will be used to change the name of a product
+     * based on the id.
+     */
+    public void replaceName(String replacementName)
+    {
+        this.name = replacementName;
+    }
+    
+    /**
+     * This will check if the stock quantity is low.
+     * If its low it will print out a message.
+     */
+    public void getLow()
+    {
+        if(checkLow() == true)
+        {
+            System.out.println("This product has low amounts of stock: " + id + " " +
+            getQuantity() + " in stock.");
+        }
+    }
+    
+    /**
+     * code to check if the stock is low
+     */
+    public boolean checkLow()
+    {
+        int low = 2;
+        
+        if(getQuantity() <= low)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
     /**
      * @return The quantity in stock.
      */
@@ -83,23 +122,17 @@ public class Product
      * Sell one of these products.
      * An error is reported if there appears to be no stock.
      */
-    public void sell(int amount)
+    public void sellOne(int amount)
     {
         if(quantity >= amount && quantity > 0) 
         {
             quantity -= amount;
-            System.out.println("Sold " + amount + " of " + name);
+            System.out.println("You have sold" + amount + "of" + name);
         }
-        else if(amount > quantity && quantity > 0)
-        {
-            System.out.println("Not Enough Stock = " + quantity + 
-            " amount ordered = " + amount);
-            quantity = 0;
-        }
-        else
+        else 
         {
             System.out.println(
-                "Attempt to sell an out of stock item: " + name);
+                "You have attempted to sell an out of stock item: " + name);
         }
     }
 }

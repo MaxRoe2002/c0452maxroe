@@ -36,6 +36,9 @@ public class InputReader
         return inputLine;
     }
     
+    /**
+     * Program to get the integer.
+     */
     public int getInt(){
         System.out.print("> ");
         int inputInt = reader.nextInt();
