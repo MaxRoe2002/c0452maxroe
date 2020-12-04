@@ -74,7 +74,7 @@ public class StockApp
         }
         else if (choice.equals(STOCK))
         {
-            lowstock();
+            lowStock();
         }
         else if (choice.equals(REMOVE))
         {
@@ -156,7 +156,7 @@ public class StockApp
     /**
      * A code to show all the stock that is low.
      */
-    public void lowstock()
+    public void lowStock()
     {       
         manager.printLowStock();
     }

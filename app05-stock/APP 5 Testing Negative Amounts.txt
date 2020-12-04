@@ -1,0 +1,79 @@
+
+ You have added 101: Samsung Galaxy S20 stock level: 0
+
+ You have added 102: Apple iPhone 12 stock level: 0
+
+ You have added 103: Google Pixel 4A stock level: 0
+
+ You have added 104: Apple iPhone 11 stock level: 0
+
+ You have added 105: Samsung Galaxy A51 stock level: 0
+
+ You have added 106: Huawei P40 Pro stock level: 0
+
+ You have added 107: Apple iPhone X stock level: 0
+
+ You have added 108: Google Pixel 5 stock level: 0
+
+ You have added 109: Sony Xperia 5 stock level: 0
+
+ You have added 110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> deliver
+Deliver a product
+
+Enter the product ID
+> 105
+Enter the amount you would like to deliver
+> -2
+Attempt to restock Samsung Galaxy A51 with a non-positive amount: -2
+Product Thats Delivered: 105: Samsung Galaxy A51 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> sell
+Sell a product
+
+Please enter the product's ID
+> 105
+Enter the amount you would like to sell
+> -2
+105: Samsung Galaxy A51 stock level: 0
+You have attempted to sell an out of stock item: Samsung Galaxy A51
+105: Samsung Galaxy A51 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> 

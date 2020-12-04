@@ -1,0 +1,101 @@
+
+ You have added 101: Samsung Galaxy S20 stock level: 0
+
+ You have added 102: Apple iPhone 12 stock level: 0
+
+ You have added 103: Google Pixel 4A stock level: 0
+
+ You have added 104: Apple iPhone 11 stock level: 0
+
+ You have added 105: Samsung Galaxy A51 stock level: 0
+
+ You have added 106: Huawei P40 Pro stock level: 0
+
+ You have added 107: Apple iPhone X stock level: 0
+
+ You have added 108: Google Pixel 5 stock level: 0
+
+ You have added 109: Sony Xperia 5 stock level: 0
+
+ You have added 110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> stock
+The stock of those products is low.
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 11 stock level: 0
+105: Samsung Galaxy A51 stock level: 0
+106: Huawei P40 Pro stock level: 0
+107: Apple iPhone X stock level: 0
+108: Google Pixel 5 stock level: 0
+109: Sony Xperia 5 stock level: 0
+110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> quit
+
+ You have added 101: Samsung Galaxy S20 stock level: 0
+
+ You have added 102: Apple iPhone 12 stock level: 0
+
+ You have added 103: Google Pixel 4A stock level: 0
+
+ You have added 104: Apple iPhone 11 stock level: 0
+
+ You have added 105: Samsung Galaxy A51 stock level: 0
+
+ You have added 106: Huawei P40 Pro stock level: 0
+
+ You have added 107: Apple iPhone X stock level: 0
+
+ You have added 108: Google Pixel 5 stock level: 0
+
+ You have added 109: Sony Xperia 5 stock level: 0
+
+ You have added 110: Samsung Galaxy S10 stock level: 0
+******************************
+ Stock Management Application 
+      App05: by Max Roe
+******************************
+
+    Add:        Add a new product
+    Sell:       Sell a product
+    Search:     Search for a product
+    Deliver:    Deliver a product
+    Remove:     Remove a product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+
+> search
+Search for a product by name
+
+Please enter the name of the product
+
+> iphone
+102: Apple iPhone 12 stock level: 0
+104: Apple iPhone 11 stock level: 0
+107: Apple iPhone X stock level: 0

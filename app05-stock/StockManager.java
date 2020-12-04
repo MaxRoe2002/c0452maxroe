@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class StockManager
 {
-    public static final int FIRST_ID = 111;
+    public static final int FIRST_ID = 101;
     public static final int LAST_ID = 130;
     // A list of the products.
     private ArrayList<Product> stock;
@@ -174,7 +174,7 @@ public class StockManager
     
     /**
      * This will print a list of the products with
-     * quantity less than 3.
+     * quantity less than 2.
      */
     public void printLowStock()
     {
